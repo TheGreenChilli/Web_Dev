@@ -142,3 +142,65 @@ Blur radius of 15px.
 
 Shadow color should be gray. -->
 
+<html>
+    <div style="width: 200px; height: 200px; box-shadow: 10px 10px 15px gray " class="shadow-box"></div>
+</html>
+
+
+<!-- Positions In CSS
+Task: Create a layout where three elements are positioned using static, relative, and absolute positioning. Each element should be clearly distinguishable with different background colors.
+
+Instructions:
+
+Create a container div with the class name parent-container.
+
+Inside the container, create three div elements:
+
+The first element should have the class name static-box and be positioned normally in the document flow without any top/bottom/left/right.
+
+The second element should have the class name relative-box and be positioned 50px to the right and 50px down from its normal position.
+
+The third element should have the class name absolute-box and be positioned 30px from the top and 30px from the left of the container.
+
+Apply background colors to each element to make their positions clear. -->
+
+<html>
+    <div style="background-color: black; width: 400px; height: 400px; position: relative;" class="parent-container">
+      
+        <div style="width: 100px; height: 100px; background-color: red;" class="static-box">
+            Static Box
+        </div>
+
+     
+        <div style="width: 100px; height: 100px; background-color: blue; position: relative; top: 50px; left: 50px;" class="relative-box">
+            Relative Box
+        </div>
+
+       
+        <div style="width: 100px; height: 100px; background-color: yellow; position: absolute; top: 30px; left: 30px;" class="absolute-box">
+            Absolute Box
+        </div>
+    </div>
+
+</html>
+
+
+<!-- Create a Responsive Flexbox Layout
+Task: Create a simple responsive layout using Flexbox where three boxes are aligned horizontally, centered both vertically and horizontally within the container, and wrap to the next line on smaller screens.
+
+Instructions:
+
+Create a container div with the class name flex-container.
+
+Inside the container, create three div elements with the class name flex-item.
+
+Apply Flexbox properties to:
+
+Center the items horizontally and vertically.
+
+Ensure the items are spaced evenly within the container.
+
+Allow the items to wrap to the next line when the screen width is reduced.
+
+Style each flex-item with a fixed width and height, and give each one a red background color for distinction. Give a yellow color to the parent div for distinction. -->
+
