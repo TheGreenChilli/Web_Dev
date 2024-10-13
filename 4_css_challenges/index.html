@@ -211,3 +211,33 @@ Style each flex-item with a fixed width and height, and give each one a red back
         <div style="background-color: red; height: 200px; width: 200px; display: flex; justify-content: center; align-items: center;" class="flex-item"></div>
     </div>
 </html>
+
+
+<!-- Create a 3x3 Grid Layout
+Task: Create a 3x3 grid layout where each cell contains a numbered box. The grid should be responsive, and the boxes should adjust their size based on the container's width.
+
+Instructions:
+
+Create a container div with the class name grid-container.
+
+Inside the container, create nine div elements with the class name grid-item.
+
+Use CSS Grid to arrange the grid-item elements into a 3x3 grid.
+
+Style each grid-item with a background color, padding, and centered text.
+
+Ensure the grid is responsive so that when the container's width decreases, the grid items maintain their aspect ratio. -->
+
+<html>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;" class="grid-container">
+    <div style="background-color: yellow; padding: 10px; text-align: center; border: 1px solid black;" class="grid-item">1</div>
+    <div style="background-color: yellow; padding: 10px; text-align: center; border: 1px solid black;" class="grid-item">2</div>
+    <div style="background-color: yellow; padding: 10px; text-align: center; border: 1px solid black;" class="grid-item">3</div>
+    <div style="background-color: yellow; padding: 10px; text-align: center; border: 1px solid black; gap: 10px;" class="grid-item">4</div>
+    <div style="background-color: yellow; padding: 10px; text-align: center; border: 1px solid black;" class="grid-item">5</div>
+    <div style="background-color: yellow; padding: 10px; text-align: center;" class="grid-item">6</div>
+    <div style="background-color: yellow; padding: 10px; text-align: center; border: 1px solid black;" class="grid-item">7</div>
+    <div style="background-color: yellow; padding: 10px; text-align: center; border: 1px solid black;" class="grid-item">8</div>
+    <div style="background-color: yellow; padding: 10px; text-align: center; border: 1px solid black;" class="grid-item">9</div>  
+</div>
+</html>
