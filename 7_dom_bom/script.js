@@ -7,6 +7,7 @@ document
     paragraph.textContent = "the paragraph is changed";
   });
 
+  
 //example 2
 
 document
